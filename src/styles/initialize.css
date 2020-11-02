@@ -1,0 +1,96 @@
+/* CSS 初始化代码 */
+html, body, div, span, object, iframe,h1, h2,
+h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn,
+em, img, ins,kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd,
+ol, ul, li,fieldset, form, label, legend,table, caption, tbody,
+tfoot,thead,tr, th, td,article, aside, canvas, details, figcaption,
+figure, footer, header, hgroup, menu, nav, section, summary,time, mark,
+audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:14px;
+    vertical-align:baseline;
+    background:transparent;
+    outline-style:none;/*FF*/
+    font-weight: normal;
+    font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "微软雅黑"; */
+}
+h2 {
+  font-size: 20px;
+}
+ul,
+li {
+    padding:0;margin:0;list-style:none;
+}
+
+body {
+    line-height:1;
+    background-color: rgba(246,246,246,1);
+}
+
+.w {
+    width: 1340px;
+    min-width: 134px;
+    margin: 0 auto;
+}
+
+a{
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    color: #666;
+    outline: none;
+    text-decoration:none;
+
+}
+p {
+  margin-bottom: 8px;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+input, select {
+    vertical-align:middle;
+    padding-left: 10px;
+}
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset !important;
+}
+input:-webkit-autofill {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+
+em {
+  font-style: normal;
+}
+
+/*css为clearfix，清除浮动*/
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix:after{clear:both;}
+.clearfix{
+    *zoom:1;/*IE/7/6*/
+}

@@ -1,0 +1,31 @@
+// global css
+body {
+  font-family: Microsoft YaHei,Arial,Verdana,sans-serif,Segoe UI,Tahoma;
+  background: white;
+}
+#cnzz_stat_icon_1274247130 {
+  position: absolute;
+  bottom: -10px;
+  right: 20px;
+}
+:focus {
+  outline: none;
+}
+a {
+  text-decoration: none;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #25323a;
+  -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: transparent;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
